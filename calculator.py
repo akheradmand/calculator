@@ -5,6 +5,7 @@ from PySide6.QtUiTools import QUiLoader
 
 operator=""
 
+
 def num(x):
     main_window.txt_box.setText(main_window.txt_box.text()+x)
 
